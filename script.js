@@ -21,7 +21,7 @@ function efectoSkills(){
     var skills = document.getElementById("skills");
     var dist_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(dist_skills >= 300){
-        let habilidades = document.getElementsByClassName("progreso");
+        let habilidades = document.getElementsByClassName("progress");
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
         habilidades[2].classList.add("java");
